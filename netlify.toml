@@ -1,0 +1,7 @@
+[build.environment]
+HUGO_VERSION = "0.139.3"
+TZ = "America/New_York"
+
+[build]
+publish = "public"
+command = "hugo --gc --minify && npx pagefind --site 'public'"
