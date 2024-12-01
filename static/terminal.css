@@ -7,11 +7,6 @@
   --radius: 5px;
 }
 
-/* Custom */
-::selection {
-  background: color-mix(in srgb, var(--accent) 100%, transparent);
-  color: var(--background);
-}
 
 html {
   box-sizing: border-box;
@@ -39,18 +34,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: 100%;
-  --pagefind-ui-scale: 0.75;
-  --pagefind-ui-primary: #034ad8;
-  --pagefind-ui-text: #e5e5e5;
-  --pagefind-ui-background: #2e2e2e;
-  --pagefind-ui-border: #3B3B3B;
-  --pagefind-ui-tag: #eeeeee;
-  --pagefind-ui-border-width: 2px;
-  --pagefind-ui-border-radius: 5px;
-  --pagefind-ui-image-border-radius: 5px;
-  --pagefind-ui-image-box-ratio: 3 / 2;
-  --pagefind-ui-font: "Fira Code", Monaco, Consolas, "Ubuntu Mono", monospace;
-
 }
 
 ::placeholder {
@@ -218,7 +201,7 @@ input[type="checkbox"]:checked {
 img {
   display: block;
   max-width: 100%;
-  border: 2px solid var(--accent);
+  border: 8px solid var(--accent);
   border-radius: var(--radius);
   padding: 8px;
   overflow: hidden;
