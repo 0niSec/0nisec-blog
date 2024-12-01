@@ -60,9 +60,9 @@ languageName = "English"
 title = "0niSec"
 
 [languages.en.params]
-subtitle = "A simple, retro theme for Hugo"
+subtitle = "Blog about cybersecurity, hacking, and other random things."
 owner = ""
-keywords = ""
+keywords = "hack the box, cybersecurity, linux, hacking, tech, blog, 0niSec"
 copyright = ""
 menuMore = "Show more"
 readMore = "Read more"
@@ -84,6 +84,10 @@ identifier = "about"
 name = "About"
 url = "/about"
 
+[[languages.en.menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags"
 
 [markup]
 [markup.tableOfContents]
@@ -116,3 +120,7 @@ url = "https://github.com/0nisec"
 [[params.social]]
 name = "LinkedIn"
 url = "https://www.linkedin.com/in/nconklin/"
+
+[services]
+[services.googleAnalytics]
+id = 'G-2TPGFQFVDE'
