@@ -19,9 +19,11 @@ I had originally discovered Obsidian because of D&D, to tell the truth. It has _
 
 But after D&D was over, I had the knowledge of Obsidian and wanted to transfer it over to note taking with doing machines on Hack the Box.
 
-## Using it for Writeups
+### Using it for Writeups
 
-Once I started this blog and made the decision to try to get into cybersecurity from my current position, I started using it for Hack the Box writeups. And, allow me to share my existing writeup template that I use.
+Once I started this blog and made the decision to try to get into cybersecurity from my current position, I started using it for Hack the Box writeups.
+
+And, allow me to share my existing writeup template that I use.
 
 ```obsidian
 ---
@@ -63,13 +65,50 @@ tags: []
 There are a few things in here that are not standard Markdown and are added syntax from plugins or Obsidian-specific syntax. I'll quickly go over everything that is not standard Markdown.
 
 **<% tp.file.title %>**
-This is the Templater plugin I mentioned earlier that has its own language. This tells Obsidian to insert the Note/file title upon creation. I do this in combination with another plugin I won't go over (but will put in a master list at the bottom for those that want it) that lets me enter the file name before it's created.
+This is the [Templater](https://silentvoid13.github.io/Templater/introduction.html) plugin I mentioned earlier that has its own language. This tells Obsidian to insert the Note/file title upon creation. I do this in combination with another plugin I won't go over (but will put in a master list at the bottom for those that want it) that lets me enter the file name before it's created.
 
 **> [!metadata|metadatatable]-**
 This just creates a collapsible (noted by the "-" at the end) callout with the name metadata and a class of "metadatatable" that adds some additional styling. I can't remember if the additional styling is through Meta Bind or not, but I want to say not. This is just standard Obsidian markup, but isn't found in Markdown.
 
 **INPUT[...]**
-Any of the fields in the table that start or look like this are the [Meta Bind](https://www.moritzjung.dev/obsidian-meta-bind-plugin-docs/) plugin. These `INPUT`s let me create input (duh) fields that let me add additional metadata to my note for things such as how difficult the box is rated on HTB, if I owned it, etc. Having this metadata in every note enables me to create a Home Dashboard that has many Dataviews of all the different kinds of metadata. It's really powerful.
+Any of the fields in the table that start or look like this are the [Meta Bind](https://www.moritzjung.dev/obsidian-meta-bind-plugin-docs/) plugin. These `INPUT`s create input (duh) fields that let me add additional metadata to my note for things such as how difficult the box is rated on HTB, if I owned it, etc. Having this metadata in every note then enables me to create a Home Dashboard that has many Dataviews of all the different kinds of metadata. It's really powerful.
+
+**VIEW[{boxName}]**
+This is Meta Bind again. It binds that heading to whatever the frontmatter property `boxName` is.
+
+### Example Dataview
+
+Here is an example code fence for one of the Dataviews I have in my Home Dashboard.
+
+```dataview "Example"
+TABLE file.ctime AS "Created On", join(tags, ", ") AS Tags, os AS OS, programs AS Programs, difficulty AS Difficulty, rating as Rating, userOwned AS "Owned User", rootOwned AS "Owned Root", quickNotes as Notes
+FROM "Hack the Box"
+```
+
+This may look somewhat like SQL and you'd be right. It's DQL, or [Dataview Query Language](https://blacksmithgu.github.io/obsidian-dataview/queries/structure/). It allows you to create massive tables of data with really short queries like this. At the time of writing this, here's a small screenshot of what this generates from my Vault.
+
+![obsidian dashboard](/images/obsidian-dashboard.png)
+
+## Taking Better Notes
+
+Having the ability to quickly generate this template, while still being able to modify it _so_ easily on the fly thanks to Obsidian pages just being Markdown, I feel I'm taking much better notes as a result. Not only is it easy, but it's more motivating to me to have something already somewhat written up that I can just _start_ with. When I first got into hacking, I had a hard time just getting started taking notes and documenting my process. This makes it so much easier.
+
+The [writeups](/tags/writeup) I've done are posted here if you want to take a look!
+
+## The King of Notes
+
+In my opinion, Obsidian is the undisputed King of note taking.
+
+## Plugins I Use
+
+I use quite a few more than this but these are the essentials in my opinion.
+
+- [Templater](https://silentvoid13.github.io/Templater/introduction.html)
+- [Meta Bind](https://www.moritzjung.dev/obsidian-meta-bind-plugin-docs/)
+- [JS Engine](https://github.com/mProjectsCode/obsidian-js-engine-plugin)
+- [Quick Add](https://github.com/chhoumann/quickadd)
+- [Advanced Tables](https://github.com/tgrosinger/advanced-tables-obsidian)
+- [Dataview](https://github.com/blacksmithgu/obsidian-dataview)
 
 ## References
 
