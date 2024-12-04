@@ -21,9 +21,13 @@ But after D&D was over, I had the knowledge of Obsidian and wanted to transfer i
 
 ### Using it for Writeups
 
-Once I started this blog and made the decision to try to get into cybersecurity from my current position, I started using it for Hack the Box writeups.
+Once I started this blog and made the decision to try to get into cybersecurity from my current position, I started using it for Hack the Box writeups. I had a hard time getting motivated to actually take notes while hacking a machine, or even remembering. But, using what I learned about Obsidian from my short time DMing, it made it so much easier to get started and actually put thoughts down.
 
-And, allow me to share my existing writeup template that I use.
+The template I came up with for machines is down below. Don't worry about the strange syntax right now.
+
+There isn't much to say. I decided to draw up a template that would generate a Note that contained all of the important steps of a hack/pentest; reconnaissance, enumeration, exploitation, privilege escalation. There's a section for foothold that I use to put down the steps that I take after I've gained an initial entry into the machine.
+
+Is it the best template? Probably not. But it's what got me motivated enough to actually start, so that has to count for something.
 
 ```obsidian
 ---
