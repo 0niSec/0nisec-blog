@@ -1,6 +1,6 @@
 +++
 title = "Why Obsidian is the Best Note Taking Tool"
-description = "My opinion on why I think Obsidian is the best note taking tool, period."
+description = "My thoughts on why Obsidian is the best note taking tool, period."
 slug = "obsidian-note-taking"
 tags = ["misc", "obsidian", "tools"]
 toc = true
@@ -60,7 +60,7 @@ tags: []
 ## Lessons Learned
 ```
 
-There are a few things in here that are not standard Markdown and are plugins that are found in Obsidian. I'll quickly go over everything that is not standard Markdown.
+There are a few things in here that are not standard Markdown and are added syntax from plugins or Obsidian-specific syntax. I'll quickly go over everything that is not standard Markdown.
 
 **<% tp.file.title %>**
 This is the Templater plugin I mentioned earlier that has its own language. This tells Obsidian to insert the Note/file title upon creation. I do this in combination with another plugin I won't go over (but will put in a master list at the bottom for those that want it) that lets me enter the file name before it's created.
@@ -69,7 +69,7 @@ This is the Templater plugin I mentioned earlier that has its own language. This
 This just creates a collapsible (noted by the "-" at the end) callout with the name metadata and a class of "metadatatable" that adds some additional styling. I can't remember if the additional styling is through Meta Bind or not, but I want to say not. This is just standard Obsidian markup, but isn't found in Markdown.
 
 **INPUT[...]**
-Any of the fields in the table that start or look like this are the [Meta Bind](https://www.moritzjung.dev/obsidian-meta-bind-plugin-docs/) plugin.
+Any of the fields in the table that start or look like this are the [Meta Bind](https://www.moritzjung.dev/obsidian-meta-bind-plugin-docs/) plugin. These `INPUT`s let me create input (duh) fields that let me add additional metadata to my note for things such as how difficult the box is rated on HTB, if I owned it, etc. Having this metadata in every note enables me to create a Home Dashboard that has many Dataviews of all the different kinds of metadata. It's really powerful.
 
 ## References
 
