@@ -5,7 +5,7 @@ slug = "obsidian-note-taking"
 tags = ["misc", "obsidian", "tools"]
 toc = true
 draft = false
-date = 2024-12-01
+date = 2024-12-04
 cover = "/images/obsidian-logo.svg"
 +++
 
@@ -95,13 +95,35 @@ This may look somewhat like SQL and you'd be right. It's DQL, or [Dataview Query
 
 ## Taking Better Notes
 
-Having the ability to quickly generate this template, while still being able to modify it _so_ easily on the fly thanks to Obsidian pages just being Markdown, I feel I'm taking much better notes as a result. Not only is it easy, but it's more motivating to me to have something already somewhat written up that I can just _start_ with. When I first got into hacking, I had a hard time just getting started taking notes and documenting my process. This makes it so much easier.
+Having the ability to quickly generate this template, while still being able to modify it on the fly (thanks to Obsidian pages just being Markdown), I feel I'm taking much better notes as a result. Not only is it easy, but it's more motivating to me to have something already somewhat written up that I can just _start_ with. When I first got into hacking, I had a hard time just getting started taking notes and documenting my process. This makes it so much easier.
 
-The [writeups](/tags/writeup) I've done are posted here if you want to take a look!
+The [writeups](/tags/writeup) I've done are posted here too if you want to take a look!
 
-## The King of Notes
+## The King of Note Taking
 
-In my opinion, Obsidian is the undisputed King of note taking.
+In my opinion, Obsidian is the undisputed King of note taking. It absolutely has some things that may not make it for you, but for me, it's perfect. It's extensible, powerful, and just plain fun to use. I can't recommend it enough. However, let's look at some of the good and bad.
+
+### The Good
+
+**Obsidian is incredibly fast.** It's fast at loading, fast at searching, and fast at rendering. It's just fast. Links to other notes and links to headings within notes are instantaneous. It's just a joy to use. Not only that, but let's say you have several notes that contain a link to one other note. That link is in a lot of places. If you change the name of that note, Obsidian will automatically update all of those links. It really helps with organization and keeping notes consistent and up-to-date.
+
+**The Obsidian-specific syntax is really useful.** I sort of alluded to this earlier, but Obsidian has some specific syntax that is not found in the Markdown spec. One feature lets you link to other notes by using a double bracket syntax like `[[note name]]`. This is really powerful and makes linking notes together a breeze. It has [other](https://help.obsidian.md/Editing+and+formatting/Obsidian+Flavored+Markdown) syntax too like defining a block that can be referenced using the same double bracket notation anywhere in your Vault.
+
+**The plugins!** Again, like I've somewhat already mentioned, Obsidian is very extensible with its abundant community driven plugins. There are plugins for everything from templating to creating custom tables to even creating custom views of your notes. It's really powerful and makes Obsidian a very versatile tool. Not only that, but even the official plugins are really good. There's a plugin to show a graph view of your notes and how they're linked together, slash commands from within a note, show all outgoing links from a note, and more.
+
+**It's incredibly customizable.** Besides the plugins to customize and extend functionality, the UI and general user experience is also very customizable. You can add custom themes that completely change the look of the editor, you can include custom CSS snippets, and more.
+
+### The Bad
+
+**With great power comes great responsibility...or something.** While I've mentioned how powerful and extensible Obsidian is...it comes at a cost. There is some amount of programming literacy required. Though, it is not much and there are plenty of resources to help you get started. But, if you're not comfortable with programming or scripting, it may be a bit daunting and I'd totally understand someone being turned off because of this.
+
+**It's not free.** Obsidian is free to use, but some of the more advanced features do cost money (looking at you [Sync](https://help.obsidian.md/Obsidian+Sync/Introduction+to+Obsidian+Sync) and [Publish](https://help.obsidian.md/Obsidian+Publish/Introduction+to+Obsidian+Publish)). For the serious note taker that wants to have their Vaults accessible across all of their devices (even mobile) and visible online, these features are available but not necessary at all.
+
+**Obsidian isn't the only one that does all this.** While I have only been using Obsidian for a short time, I have heard that other note taking apps like [Roam Research](https://roamresearch.com/) and [Notion](https://www.notion.so/) do similar things. I've never used Roam Research, but I have used Notion and I do like it. But it isn't its own standalone application like Obsidian is that can be installed on your PC.
+
+## Conclusion
+
+I won't sugarcoat it. I love Obsidian. I love it for note taking for Hack the Box and I even love it for general note taking. It's powerful, extensible, and just plain fun to use. I can't recommend it enough. If you're looking for a note taking app that is fast, powerful, and fun to use, Obsidian is the one for you.
 
 ## Plugins I Use
 
