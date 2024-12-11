@@ -25,7 +25,7 @@ Once I started this blog and made the decision to try to get into cybersecurity 
 
 The template I came up with for machines is down below. Don't worry about the strange syntax right now.
 
-There isn't much to say. I decided to draw up a template that would generate a Note that contained all of the important steps of a hack/pentest; reconnaissance, enumeration, exploitation, privilege escalation. There's a section for foothold that I use to put down the steps that I take after I've gained an initial entry into the machine.
+I decided to draw up a template that would generate a Note that contained all of the important steps of a hack/pentest; reconnaissance, enumeration, exploitation, privilege escalation. There's a section for foothold that I use to put down the steps that I take after I've gained an initial entry into the machine.
 
 Is it the best template? Probably not. But it's what got me motivated enough to actually start, so that has to count for something.
 
