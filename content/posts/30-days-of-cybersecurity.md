@@ -1,10 +1,21 @@
 ---
 title: "30 Days of Cybersecurity Challenge"
 pubDate: 2024-11-13
+modified: 2025-01-01
 description: "This article discusses my 30 days of cybersecurity challenge where every day for 30 days I try to learn about or do one thing related to cybersecurity"
 tags: ["30-days-of-cyber"]
 draft: false
 ---
+
+## UPDATE 01-01-2025
+
+This challenge was a little more than I was able to handle and as a result I won't be continuing this. It's really hard to do 30 challenges in 30 days in a row with the responsibilities and little free time that I have right now at this point in life. I was only able to get one challenge actually completed and had started another but life got in the way and I have not been able to come back to it yet.
+
+I'm not going to delete this or the one article that I did get done for this challenge. The tags will stay the same and they'll still be available and searchable, but you won't see any more articles with the `30-days-of-cyber` tag.
+
+This does not mean I'm not interested anymore or don't want to do hacking or security related things. On the contrary, I'm still quite motivated to change my career and get into infosec. I'll be adding more articles as I have the free time.
+
+Sorry to anyone that was looking forward to more articles coming off from this challenge. But, I hope you'll stick around and find other articles I've written that pique your interest.
 
 ## Why Am I Doing This?
 

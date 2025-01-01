@@ -1,12 +1,17 @@
 +++
 title =  "Day 1: HTB Machine - Cicada"
 pubDate = 2024-11-15
+updated = 2025-01-01
 description = "In this 30 Days of Cyber Security challenge, I tackled the Easy Windows machine 'Cicada' on Hack the Box. This article is written in the format of a live penetration test report instead of a normal blog entry."
 tags = ["30-days-of-cyber", "htb", "report", "windows", "enumeration"]
 cover = "/images/Cicada.png"
 toc = true
 draft = false
 +++
+
+## UPDATE 01-01-2025
+
+This article is the only article in the "30 Days of Cyber" series. Please enjoy this article for what it is but there are not any more articles from this challenge. Please see [this](./30-days-of-cybersecurity.md) article for the actual update.
 
 ## Disclaimer
 
@@ -82,13 +87,11 @@ The HR Share could be connected using an anonymous login and a "Notice from HR.t
 
 {{< figure src="/images/cicada-notice-from-hr-read.webp" title="Figure 3 - Notice from HR.txt" >}}
 
-
 Further in the attack chain, another cleartext password is obtained using user `david.orelious` and accessing the DEV Share.
 
 {{< figure src="/images/cicada-david-o-dev-share.png" title="Figure 4 - Connecting to DEV Share as david.orelious" >}}
 
 ![Backup Script](/images/cicada-backup-script.png)
-
 
 The Powershell file contained a cleartext password for the user `emily.oscars`
 
