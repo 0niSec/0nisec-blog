@@ -9,7 +9,7 @@ body {
     --pagefind-ui-border-radius: 5px;
     --pagefind-ui-image-border-radius: 5px;
     --pagefind-ui-image-box-ratio: 3 / 2;
-    --pagefind-ui-font: "Fira Code", Monaco, Consolas, "Ubuntu Mono", monospace; 
+    --pagefind-ui-font: "Fira Code", Monaco, Consolas, "Ubuntu Mono", monospace;
 }
 
 /* Custom */
@@ -21,4 +21,10 @@ body {
 /* Overriding default */
 img {
     border: 2px solid var(--accent) !important;
+}
+
+@media screen and (max-width: 768px) {
+    #search {
+        margin-top:  1rem;
+    }
 }
